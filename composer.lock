@@ -1,0 +1,54 @@
+{
+    "hash": "a11bda2af8b9ea495a16d0f68b003bf7",
+    "packages": [
+        {
+            "name": "tdd-php/lib-simple-string",
+            "version": "dev-master",
+            "target-dir": "Gajdaw/TddExamples/SimpleString",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdd-php/lib-simple-string.git",
+                "reference": "1295ade7cac078a4bde81dc71ad913a748f897b0"
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/yaml": "2.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Gajdaw\\TddExamples\\SimpleString": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Włodzimierz Gajda",
+                    "email": "gajdaw@gajdaw.pl"
+                }
+            ],
+            "description": "Example string operations",
+            "time": "2013-03-21 08:48:20"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "tdd-php/lib-simple-string": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
